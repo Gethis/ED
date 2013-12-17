@@ -22,3 +22,8 @@ Excepted values of `isvalid()`:
     isvalid('email', $_POST['email'])
     isvalid('phoneNumber', $_POST['number'])
     isvalid('url', $_POST['website'])
+
+Classes
+=======
+
+All classes in the [classes](https://github.com/JacquesMarais/ED/tree/master/classes) folder is created by me, Jacques Marais, is released under the Apache v2 License and is open source.
