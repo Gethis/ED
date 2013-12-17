@@ -31,5 +31,4 @@ All classes in the [classes](https://github.com/JacquesMarais/ED/tree/master/cla
 FAQ
 ===
 
-1. Why is there an file called `words.txt`
-1.a) It is used to check for valid words with `isvalid("word"`
+1. Why is there an file called `words.txt`?  Answer: It is used to check for valid words with `isvalid("word"`
