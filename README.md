@@ -32,3 +32,8 @@ FAQ
 ===
 
 1. Why is there an file called `words.txt`?  Answer: It is used to check for valid words with `isvalid("word"`
+
+Social Networks
+===============
+
+[On Facebook](https://www.facebook.com/EasyDevop)
