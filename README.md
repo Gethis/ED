@@ -27,3 +27,9 @@ Classes
 =======
 
 All classes in the [classes](https://github.com/JacquesMarais/ED/tree/master/classes) folder is created by me, Jacques Marais, is released under the Apache v2 License and is open source.
+
+FAQ
+===
+
+1. Why is there an file called `words.txt`
+1.a) It is used to check for valid words with `isvalid("word"`
