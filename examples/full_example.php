@@ -1,5 +1,5 @@
 <?php
-include("classes/easydevop.class.php");
+include("../easydevop.class.php");
 
 $ed = new EasyDevop;
 if($ed->isvalid('phoneNumber', '0833322887')){
