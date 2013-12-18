@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Ed : EasyDevop is a PHP class to easily do things with PHP." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Ed</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/JacquesMarais/ED">View on GitHub</a>
+
+          <h1 id="project_title">Ed</h1>
+          <h2 id="project_tagline">EasyDevop is a PHP class to easily do things with PHP.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/JacquesMarais/ED/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/JacquesMarais/ED/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="easydevop" class="anchor" href="#easydevop"><span class="octicon octicon-link"></span></a>EasyDevop</h1>
+
+<p>EasyDevop is a PHP class to easily do things with PHP.</p>
+
+<h1>
+<a name="examples" class="anchor" href="#examples"><span class="octicon octicon-link"></span></a>Examples</h1>
+
+<p>Check if an user inputted email address is valid:</p>
+
+<pre><code>include('includes/ed.php');
+$ed = new EasyDevop;
+if($ed-&gt;isvalid('email', $_POST['email'])){
+    header('Location: login.php');
+} else{
+    echo "&lt;h3&gt;Please enter a valid email address&lt;/h3&gt;";
+}
+</code></pre>
+
+<p>Excepted values of <code>isvalid()</code>:</p>
+
+<pre><code>isvalid('email', $_POST['email'])
+isvalid('phoneNumber', $_POST['number'])
+isvalid('url', $_POST['website'])
+</code></pre>
+
+<h1>
+<a name="classes" class="anchor" href="#classes"><span class="octicon octicon-link"></span></a>Classes</h1>
+
+<p>All classes in the <a href="https://github.com/JacquesMarais/ED/tree/master/classes">classes</a> folder is created by me, Jacques Marais, is released under the Apache v2 License and is open source.</p>
+
+<h1>
+<a name="faq" class="anchor" href="#faq"><span class="octicon octicon-link"></span></a>FAQ</h1>
+
+<ol>
+<li>Why is there an file called <code>words.txt</code>?  Answer: It is used to check for valid words with <code>isvalid("word"</code>
+</li>
+</ol><h1>
+<a name="social-networks" class="anchor" href="#social-networks"><span class="octicon octicon-link"></span></a>Social Networks</h1>
+
+<p><a href="https://www.facebook.com/EasyDevop">On Facebook</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Ed maintained by <a href="https://github.com/JacquesMarais">JacquesMarais</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
