@@ -37,3 +37,7 @@ Social Networks
 ===============
 
 [On Facebook](https://www.facebook.com/EasyDevop)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/JacquesMarais/ed/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
