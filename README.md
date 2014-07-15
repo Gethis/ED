@@ -31,7 +31,7 @@ All classes in the [classes](https://github.com/JacquesMarais/ED/tree/master/cla
 FAQ
 ===
 
-1. Why is there an file called `words.txt`?  Answer: It is used to check for valid words with `isvalid("word"`
+No questions yet. If you have one you can ask it in the [issues](https://github.com/Gethis/ED/issues/)
 
 Social Networks
 ===============
